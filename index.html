@@ -84,9 +84,10 @@
       }
     }
 
-    let level = score <= 6 ? "Beginner – Needs foundational training"
-              : score <= 13 ? "Novice – Has field experience, requires oversight"
-              : "Intermediate – Field-ready, minimal supervision needed";
+let level = score <= 6 ? "Jr. 1 – Needs foundational training"
+          : score <= 13 ? "Jr. 2 – Has field experience, requires oversight"
+          : "Tech 1 – Field-ready, minimal supervision needed";
+
 
     document.getElementById("result").innerText =
   `Score: ${score}/20`;
